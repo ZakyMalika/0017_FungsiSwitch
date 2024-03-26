@@ -25,7 +25,9 @@ int pembagian(float a, float b) {
 }
 
 int main() {
+
 	int pilihan;
+
 	do {
 		cout << "Kalkulator Sederhana " << endl;
 		cout << "====================" << endl;
@@ -47,20 +49,26 @@ int main() {
 
 		case 2:
 			input();
-				cout << "Hasil Penjumlahan = " << pengurangan(bilA, bilB) << endl;
+				cout << "Hasil pengurangan = " << pengurangan(bilA, bilB) << endl;
 			break;
 
 		case 3:
 			input();
-				cout << "Hasil Penjumlahan = " << perkalian(bilA, bilB) << endl;
+				cout << "Hasil perkalian = " << perkalian(bilA, bilB) << endl;
 			break;
 
 		case 4:
 			input();
-				cout << "Hasil Penjumlahan = " << pembagian(bilA, bilB) << endl;
+				cout << "Hasil Pembagian = " << pembagian(bilA, bilB) << endl;
 			break;
 
-
+		case 5:
+			break;
+		default:
+			cout << "Pilihan anda salah" << endl;
+			break;
 		}
+		system("pause");
+		system("cls");
 	} while (pilihan !=5);
 }
