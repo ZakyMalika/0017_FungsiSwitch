@@ -3,7 +3,7 @@ using namespace std;
 
 int bilA, bilB;
 
-void input() {
+void input() { 
 	cout << "Masukkan bilangan pertama = ";
 	cin >> bilA;
 	cout << "Masukkan bilangan kedua = ";
