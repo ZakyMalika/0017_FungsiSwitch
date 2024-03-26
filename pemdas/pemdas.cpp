@@ -40,6 +40,28 @@ int main() {
 
 		switch (pilihan) {
 
+		case '1':
+			cout << "penjumlahan";
+			break;
+
+		case '2':
+			cout << "pengurangan";
+			break;
+
+		case '3':
+			cout << "perkalian";
+			break;
+
+		case'4':
+			cout << "pembagian";
+			break;
+
+		default :
+			cout << "";
+			break;
+
+
+
 		}
-	} while
+	} while (pilihan !=5);
 }
