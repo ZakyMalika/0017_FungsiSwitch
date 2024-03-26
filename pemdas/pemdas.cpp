@@ -40,26 +40,25 @@ int main() {
 
 		switch (pilihan) {
 
-		case '1':
-			cout << "penjumlahan";
+		case 1:
+			input();
+			cout << "Hasil Penjumlahan = " << penjumlahan(bilA, bilB) << endl;
 			break;
 
-		case '2':
-			cout << "pengurangan";
+		case 2:
+			input();
+				cout << "Hasil Penjumlahan = " << pengurangan(bilA, bilB) << endl;
 			break;
 
-		case '3':
-			cout << "perkalian";
+		case 3:
+			input();
+				cout << "Hasil Penjumlahan = " << perkalian(bilA, bilB) << endl;
 			break;
 
-		case'4':
-			cout << "pembagian";
+		case 4:
+			input();
+				cout << "Hasil Penjumlahan = " << pembagian(bilA, bilB) << endl;
 			break;
-
-		default :
-			cout << "";
-			break;
-
 
 
 		}
