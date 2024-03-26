@@ -37,7 +37,7 @@ int main() {
 		cout << "4. Pembagian" << endl;
 		cout << "5. Keluar" << endl;
 		cout << "====================" << endl;
-		cout << "Masukkan Menu Pilihan : " << endl;
+		cout << "Masukkan Menu Pilihan : ";
 		cin >> pilihan;
 
 		switch (pilihan) {
